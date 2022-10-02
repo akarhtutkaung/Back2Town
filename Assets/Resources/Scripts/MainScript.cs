@@ -13,8 +13,8 @@ class MainScript : MonoBehaviour
     List<GameObject> npcs;
     public GameObject building;
     int buildingMaxAmount = 20;
-    int npcMaxAmount = 10;
-    int nodeMaxAmount = 200;
+    int npcMaxAmount = 8;
+    int nodeMaxAmount = 300;
     float minX = -55.0f;
     float maxX = 55.0f;
     float minZ = -55.0f;
@@ -236,7 +236,7 @@ class MainScript : MonoBehaviour
             Vector3 randPos;
             while(true){
                 randPos = randomPos(minX + 5.0f, maxX - 5.0f, minZ + 5.0f, maxZ - 5.0f);
-                Collider[] hitColliders = Physics.OverlapSphere(randPos, 5);
+                Collider[] hitColliders = Physics.OverlapSphere(randPos, 8);
                 if(hitColliders.Length == 1){
                     if(hitColliders[0].gameObject == this.gameObject){
                         break;

@@ -18,7 +18,6 @@ public class TTC : MonoBehaviour {
       
       Vector3 acc = new Vector3(0, 0, 0);
       Vector3 agentPos = agentNpc.transform.position;
-      // agentPos.y = 0;
       Vector3 dir = Vector3.Normalize(goalPos - agentPos);
       acc = dir * moveSpeed;
       

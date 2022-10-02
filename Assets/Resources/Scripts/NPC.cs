@@ -162,6 +162,7 @@ public class NPC : MonoBehaviour
     path = PRM.planPath(transform.position, script.getBuildings()[buildingId].gameObject.transform.position, nodes);
     if(path is null) {
       pathFound = false;
+      createNewGoalNPath();
     } else {
       pathFound = true;
       firstTime = true;

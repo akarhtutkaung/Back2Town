@@ -6,8 +6,6 @@ public class Particle : MonoBehaviour
 {
   GameObject gameObject;
 
-  // public Vector3 position;
-
   public Vector3 velocity;
 
   public Color color;
@@ -16,7 +14,6 @@ public class Particle : MonoBehaviour
     gameObject = GameObject.CreatePrimitive(PrimitiveType.Sphere);
     gameObject.transform.position = position;
     gameObject.transform.localScale = new Vector3(0.1f, 0.2f, 0.1f);
-    // this.position = position;
     this.velocity = velocity;
     this.color = color;
   }

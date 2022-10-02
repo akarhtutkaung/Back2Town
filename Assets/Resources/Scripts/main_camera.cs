@@ -2,7 +2,7 @@
 using System.Collections;
  
 public class main_camera : MonoBehaviour {
-    float camSens = 0.25f; //How sensitive it with mouse
+    float camSens = 0.25f;
     private Vector3 lastMouse = new Vector3(255, 255, 255);
     bool onGround = true;
     Vector3 prevPos;
