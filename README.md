@@ -1,6 +1,6 @@
-# CSCI 5611 Project 1
+# Back2Town
 
-Project Title: **Back2Town**
+CSCI 5611 Project 1
 
 @Author: Akar (Ace) Kaung
 
