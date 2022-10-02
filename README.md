@@ -4,8 +4,9 @@ CSCI 5611 Project 1
 
 @Author: Akar (Ace) Kaung
 
-## Prerequisite
 Software: Unity
+
+Language: C#
 
 ## Summary
 This gameplay implements the Dijkstra pathfinding algorithm to find the path for the agents to move toward their goals. 
@@ -38,25 +39,26 @@ Anytime:
 
 ### Set-up environment (creating new obstacle and moving it around)
 
-https://media.github.umn.edu/user/17933/files/b64392c4-e10f-47fc-82ec-c568d4b4f7b3
+https://user-images.githubusercontent.com/76828992/193470396-2e9ae774-80c1-4ba4-94e1-72ee220617dc.mp4
 
 ### During gameplay (moving an existing obstacle)
 
-https://media.github.umn.edu/user/17933/files/e25b7906-8b4a-4f08-b158-b82e31e53a69
+https://user-images.githubusercontent.com/76828992/193470420-02f74ef1-e133-451f-84b4-e0266ac65118.mp4
 
 ### Moving around
 
-https://media.github.umn.edu/user/17933/files/9030de35-1052-4595-abae-00eedf97a192
+https://user-images.githubusercontent.com/76828992/193470424-62c4aef8-8694-4343-9d46-2f4732240ee3.mp4
 
 ### Eagle view vs Ground view
 
-https://media.github.umn.edu/user/17933/files/20838f36-fe08-42de-8cd0-908ed481064a
+
+https://user-images.githubusercontent.com/76828992/193470429-3be2277b-a139-4d9d-ada2-d1cf84ab635f.mp4
 
 ## Assets
 ### Owned \[Created by Akar (Ace)]
 Robot 1 (Floats in the air)
 
-https://media.github.umn.edu/user/17933/files/223c6bc6-d5de-4262-b650-084a4270f827
+https://user-images.githubusercontent.com/76828992/193470442-27e3ed6f-59b1-4483-afd5-ff8e3f694e5d.mp4
 
 Robot 2 
 
