@@ -45,7 +45,11 @@ https://user-images.githubusercontent.com/76828992/193470396-2e9ae774-80c1-4ba4-
 
 https://user-images.githubusercontent.com/76828992/193470420-02f74ef1-e133-451f-84b4-e0266ac65118.mp4
 
-### Moving around
+### NPC Navigating/Movement through environment
+
+https://user-images.githubusercontent.com/76828992/193471370-13a8cd43-1eac-43ca-93eb-8121d3aeae0e.mp4
+
+### User moving around
 
 https://user-images.githubusercontent.com/76828992/193470424-62c4aef8-8694-4343-9d46-2f4732240ee3.mp4
 
@@ -64,11 +68,21 @@ Robot 2
 
 ![image](https://media.github.umn.edu/user/17933/files/d8332845-7ac1-4df1-8d1c-7535943f126f)
 
-### Credits
+### Outside resources
+#### Credits
+#### Model
 Buildings: <br>
   @Author: Szymon Lukaszuk<br>
   @Link: https://assetstore.unity.com/packages/3d/environments/historic/lowpoly-medieval-buildings-58289
-  
-Ground Texture: <br>
+
+#### Texture
+Ground: <br>
   @Author: Casual2D<br>
   @Link: https://assetstore.unity.com/packages/2d/textures-materials/nature/snow-cliff-materials-137086
+
+Sky: <br>
+  Unity built-in
+
+#### Library
+Laser ray: <br>
+  Unity built-in [raycast](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) and [line renderer](https://docs.unity3d.com/Manual/class-LineRenderer.html) library
