@@ -54,8 +54,6 @@ https://user-images.githubusercontent.com/76828992/193470420-02f74ef1-e133-451f-
   - NPC moves through the environment
 - Multiple Agents Planning+
   - Multiple NPCs move through the environment
-- Crowd Simulation
-  - Multiple NPCs move through the environment without colliding
 - Improved Agent & Scene Rendering
   - NPCs shapes/geometry are custom created by myself
 - Orientation Smoothing
@@ -78,6 +76,12 @@ https://user-images.githubusercontent.com/76828992/193470429-3be2277b-a139-4d9d-
   - Snows fall down onto the ground and once it reaches, it disappear
 
 https://user-images.githubusercontent.com/76828992/193471994-3a5c096c-0de1-499c-95e7-5fa32de6498e.mp4
+
+### Collision-Free
+- Crowd Simulation
+  - Multiple NPCs move through the environment without colliding
+
+https://user-images.githubusercontent.com/76828992/193473043-40819f14-5622-44a7-aabc-b313aabf3bf0.mp4
 
 ## Encountered challenges
 - Collision free
