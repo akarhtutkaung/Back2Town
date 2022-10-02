@@ -37,26 +37,53 @@ Anytime:
 
 ## Gameplay
 
-### Set-up environment (creating new obstacle and moving it around)
+### Set-up environment
+- User Scenario Editing+ 
+  - Able to add new obstacle/s during the setup
 
 https://user-images.githubusercontent.com/76828992/193470396-2e9ae774-80c1-4ba4-94e1-72ee220617dc.mp4
 
-### During gameplay (moving an existing obstacle)
+### During gameplay
+- Realtime User Interaction
+  - Able to move existing obstacle during the gameplay
 
 https://user-images.githubusercontent.com/76828992/193470420-02f74ef1-e133-451f-84b4-e0266ac65118.mp4
 
 ### NPC Navigating/Movement through environment
+- Single Agent Navigation
+  - NPC moves through the environment
+- Multiple Agents Planning+
+  - Multiple NPCs move through the environment
+- Crowd Simulation
+  - Multiple NPCs move through the environment without colliding
+- Improved Agent & Scene Rendering
+  - NPCs shapes/geometry are custom created by myself
+- Orientation Smoothing
+  - NPCs turns smoothly when it reaches to the nodes
 
 https://user-images.githubusercontent.com/76828992/193471370-13a8cd43-1eac-43ca-93eb-8121d3aeae0e.mp4
 
 ### User moving around
+- 3D Rendering & Camera 
+  - Able to look around using mouse
 
 https://user-images.githubusercontent.com/76828992/193470424-62c4aef8-8694-4343-9d46-2f4732240ee3.mp4
 
 ### Eagle view vs Ground view
 
-
 https://user-images.githubusercontent.com/76828992/193470429-3be2277b-a139-4d9d-ada2-d1cf84ab635f.mp4
+
+### Weather
+- Incorporate Particle System
+  - Snows fall down onto the ground and once it reaches, it disappear
+
+https://user-images.githubusercontent.com/76828992/193471994-3a5c096c-0de1-499c-95e7-5fa32de6498e.mp4
+
+## Encountered challenges
+- Collision free
+  - For some reason, while translating Java TTC codes into C#, somehow I mistranslated some variables and its positions. So it took me quite a while to figure out why the collision is still happening even though the implementation is seems to be correct.
+- Bound/Collider for assets
+  - Some of the objects has specific geometry shape which make it hard to translate its bound into numbers.
 
 ## Assets
 ### Owned \[Created by Akar (Ace)]
@@ -68,21 +95,20 @@ Robot 2
 
 ![image](https://media.github.umn.edu/user/17933/files/d8332845-7ac1-4df1-8d1c-7535943f126f)
 
-### Outside resources
-#### Credits
+### Outside resources (Credits)
 #### Model
-Buildings: <br>
-  @Author: Szymon Lukaszuk<br>
-  @Link: https://assetstore.unity.com/packages/3d/environments/historic/lowpoly-medieval-buildings-58289
+- Buildings: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Author: Szymon Lukaszuk<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Link: https://assetstore.unity.com/packages/3d/environments/historic/lowpoly-medieval-buildings-58289
 
 #### Texture
-Ground: <br>
-  @Author: Casual2D<br>
-  @Link: https://assetstore.unity.com/packages/2d/textures-materials/nature/snow-cliff-materials-137086
+- Ground: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Author: Casual2D<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Link: https://assetstore.unity.com/packages/2d/textures-materials/nature/snow-cliff-materials-137086
 
-Sky: <br>
-  Unity built-in
+- Sky: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unity built-in
 
 #### Library
-Laser ray: <br>
-  Unity built-in [raycast](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) and [line renderer](https://docs.unity3d.com/Manual/class-LineRenderer.html) library
+- Laser ray: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unity built-in [raycast](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html) and [line renderer](https://docs.unity3d.com/Manual/class-LineRenderer.html) library
