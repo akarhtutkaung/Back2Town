@@ -1,0 +1,12 @@
+bakery: r5
+house: r5
+ironwork: r4.5
+market: r6
+mine: r4
+sawmill: r5
+slaughterhouse: r5
+smith: r7
+tower_small: r2
+warehouse: r6.5
+windmill: r4
+
