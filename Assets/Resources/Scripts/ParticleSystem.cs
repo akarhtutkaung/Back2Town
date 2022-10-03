@@ -13,6 +13,10 @@ class ParticleSystem : MonoBehaviour
   int numParticles = 0; 
   List<Particle> particles = new List<Particle>();
   MainScript script;
+  float timer=0;
+  float maxTime;
+  Vector3 breezeForce;
+  Vector3 angle;
 
   void Start(){
     mainObjPos = this.transform.position;
@@ -22,10 +26,25 @@ class ParticleSystem : MonoBehaviour
     maxZ = scale.z/2.0f;
     minZ = -scale.z/2.0f;
     script = GameObject.Find("GroundMain").GetComponent<MainScript>();
+    generateBreezeForce();
+    angle = transform.forward;
+  }
+
+  void generateBreezeForce(){
+    maxTime = Random.Range(10.0f,15.0f);
+    float x = Random.Range(-10.0f, 10.0f);
+    float z = Random.Range(-10.0f, 10.0f);
+    breezeForce = new Vector3(x, 0, z);
+    timer=0;
   }
 
   void Update(){
     if(script.getGamePlayReady() == true){
+
+      if(timer>=maxTime){
+        generateBreezeForce();
+      }
+
       //--------------------------------------------------------------
       // Generate particles
       float toGen_float = genRate * Time.deltaTime;
@@ -58,11 +77,15 @@ class ParticleSystem : MonoBehaviour
       //--------------------------------------------------------------
       // Momentum
       for (int i = 0; i <  numParticles; i++) {
-        Vector3 acc = gravity; //Gravity
+        Vector3 acc = gravity + breezeForce; //Gravity
         particles[i].getGameObject().transform.position += particles[i].velocity * Time.deltaTime;
         particles[i].velocity += acc * Time.deltaTime;
+        angle = ((0.95f*angle)+(0.05f*acc));
+        particles[i].getGameObject().transform.rotation = Quaternion.LookRotation(angle, Vector3.up); 
+
       }
       //--------------------------------------------------------------
+      timer+=Time.deltaTime;
     }
   }
 
