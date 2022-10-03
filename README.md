@@ -15,6 +15,7 @@ Once the agent arrived at its destination, it will choose a new goal randomly ag
 User will be able to observe the environment freely, meaning it will be able to pass and go inside the buidlings instead of colliding with it.
 
 ## Usage
+Open the SampleScene from `/Back2Town/Assets/Scene` 
 
 Press play button in Unity to get started. This will lead to set-up environment. <br>
 
@@ -73,7 +74,7 @@ https://user-images.githubusercontent.com/76828992/193470429-3be2277b-a139-4d9d-
 
 ### Weather
 - Incorporate Particle System
-  - Snows fall down onto the ground and once it reaches, it disappear
+  - Snows fall down according to the breeze/wind onto the ground and once it reaches, it disappear
 
 https://user-images.githubusercontent.com/76828992/193471994-3a5c096c-0de1-499c-95e7-5fa32de6498e.mp4
 
