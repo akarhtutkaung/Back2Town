@@ -91,7 +91,7 @@ https://user-images.githubusercontent.com/76828992/193473043-40819f14-5622-44a7-
   - Some of the objects has specific geometry shape which make it hard to translate its bound into numbers.
 
 ## Assets
-### Owned \[Created by Akar (Ace)]
+### Owned | Art Contest \[Created by Akar (Ace)]
 Robot 1 (Floats in the air)
 
 https://user-images.githubusercontent.com/76828992/193470442-27e3ed6f-59b1-4483-afd5-ff8e3f694e5d.mp4
